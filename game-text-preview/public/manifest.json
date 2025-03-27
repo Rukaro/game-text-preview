@@ -1,0 +1,15 @@
+{
+  "name": "Game Text Preview",
+  "description": "Preview cell text rendering effect in game",
+  "version": "1.0.0",
+  "permissions": [
+    "bitable:app",
+    "bitable:table",
+    "bitable:record"
+  ],
+  "entry": "index.html",
+  "sidebar": {
+    "title": "Game Text Preview",
+    "entry": "sidebar.html"
+  }
+} 
