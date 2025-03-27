@@ -7,9 +7,12 @@
     "bitable:table",
     "bitable:record"
   ],
-  "entry": "index.html",
-  "sidebar": {
-    "title": "Game Text Preview",
-    "entry": "sidebar.html"
+  "main": "index.html",
+  "ui": {
+    "sidebar": {
+      "title": "Game Text Preview",
+      "url": "sidebar.html",
+      "width": 300
+    }
   }
 } 
