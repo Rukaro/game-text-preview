@@ -1,0 +1,24 @@
+{
+  "name": "Game Text Preview",
+  "description": "Preview cell text rendering effect in game",
+  "version": "1.0.0",
+  "dependencies": {
+    "@base-open/plugin-sdk": "latest"
+  },
+  "permissions": [
+    "bitable:app:readonly",
+    "bitable:table:readonly",
+    "bitable:record:readonly"
+  ],
+  "minBitableVersion": "1.0.0",
+  "main": "/index.html",
+  "ui": {
+    "views": {
+      "sidebar": {
+        "title": "Game Text Preview",
+        "path": "/sidebar.html",
+        "width": 300
+      }
+    }
+  }
+} 
